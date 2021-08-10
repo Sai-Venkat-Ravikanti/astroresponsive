@@ -1,0 +1,129 @@
+.banner{
+    height: 700px;
+    background-color: grey;
+    background-image: url('starry-sky-2533021_1920.jpg');
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+@media only screen and (max-width:650px){
+    .banner{
+        background-image: url('starry-sky-2533021_1920.jpg');
+        width: 100%;
+    }
+}
+.banner_content{
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+@media only screen and (max-width:650px){
+    .banner_content{
+        width: 220px;
+        height: 238px;
+        font-size: 13px;
+        
+
+        
+    }
+}
+.pad{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+@media only screen and (max-width:650px){
+    .pad{
+        padding-left:20px
+    }
+}
+.ban__title{
+    font-size: 30px;
+    padding-top: 40px;
+}
+@media only screen and (max-width:650px){
+    .ban__title{
+        font-size: 15px;
+        padding: 20px;
+    }
+}
+.testimonials{
+    padding: 50px 0px;
+}
+.my-card{
+    margin-left: 10px;
+}
+@media only screen and (max-width:650px){
+    .my-card{
+        margin-bottom: 5px;
+    }
+}
+.group{
+    padding-right: 80px !important;
+    margin-right: 20px !important;
+}
+ @media only screen and (max-width:650px){
+    .group{
+        padding-right: 20px !important;
+        margin-right: 10px !important;
+    }
+} 
+.service{
+    background-color:red ;
+    border: 2px solid black;
+    width: 300px;
+    height: 250px;
+    margin-bottom: 70px;
+}
+ @media only screen and (max-width:650px){
+    .service{
+        width: 140px;
+        height: 140px;
+        margin-top: 170px;
+        
+    }
+} 
+.card:hover{
+    background-color: grey;
+    transition: .3s ;
+    transform: scale(1.05);
+}
+.img1 , .img2 , .img3 ,.img4 , .img5 , .img6 {
+    height: 150px;
+    width: 150px; 
+}
+@media only screen and (max-width:650px){
+    .img1 , .img2 ,.img3,.img4,.img5,.img6{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media only screen and (max-width:650px){
+    .card_width{
+        width: 250px !important;
+        margin-bottom: 5px;
+        margin-left: 40px;
+        margin-top: 0px;
+    }
+}
+.gender-button{
+    margin-left: 50% !important;
+}
+@media only screen and (max-width:650px){
+   html, body{
+        background-color:white;
+        overflow-x: hidden;
+    }
+    .banner{
+        width: 100%;
+        height: 400px;
+    }
+    .ban__title{
+        font-size: 15px;
+    }
+
+}
+
+
+
